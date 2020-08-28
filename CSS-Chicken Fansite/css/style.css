@@ -1,0 +1,45 @@
+/***********************Tag selectors*******************/
+h1{
+  color: red;
+  font-size: 100px;
+}
+
+/*img{
+  background-color: red;
+}
+*/
+
+
+/************************Class Selectors*******************/
+/*for making styles specifc to a partcular element*/
+.chicken{
+  background-color: green;
+}
+.broccoli{
+  background-color: red;
+}
+.circular{
+  border-radius: 100%;
+}
+/*classes are ids are more specific ,so they are given more priority
+than tag selectors--overriden*/
+
+/**************************ID selectors************************/
+#heading{
+  color: blue;
+}
+/* #big{
+  font-size: 300px;  won't work
+}
+*/
+
+/*id and classes are similar,but there's difference
+id--to apply a specific style on a single element in a page
+    can't use multiple ids for a particular element
+class-to apply the same style to a group od related items
+      can use multiple classes for a partcular element*/
+
+/*******************Pseudo class************************/
+img:hover{
+  background-color: gold;
+}
